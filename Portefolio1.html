@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Mon Portfolio </title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+
+</head>
+<body>
+
+    <!-- Barre de navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section classe="home" , id="home">
+        <header class="homme">
+        <h2>Accueil :</h2>
+        <p>Bienvenu a notre page web</p>
+            <img src="C:\Users\HP\OneDrive\Documents\L3 ISIL\Projet_Workshop_Html\image.jpg" width="200" height="150">
+        </section > 
+    </header>
+    <!-- Section "À propos" -->
+    <section  id="about">
+        <h2>A propos de moi</h2>
+            <h2>À propos</h2>
+            <p>Bienvenue sur ma page personnelle.  Vous trouverez ci-dessous des informations à mon sujet :</p>
+            <ul>
+                <li><strong>Nom:</strong><div> Benbouchama</li></div>
+                <li><strong>Prénom:</strong><div>Fatima Zahra</li></div>
+                <li><strong>Parcours académique:</strong><br>
+                    <div>Niveau : Licence en ingenierie des systemes d'informations et des logiciels<br>
+                     Nom de l'université:USTHB<br>
+                    Date de début:septembre 2021<br>
+                    Date de fin: juin 2024<br></li></div>
+
+                    <li><strong> Compétences:  </strong><br>
+                        <div> Développement web (HTML)<br>
+                         Frameworks (Django)<br>
+                        Bases de données (SQL, MongoDB, etc.)<br>
+                        Languages de programmation (C,java,python)<br>
+                         Bases de données (SQL)<br></li></div>
+
+            </ul>
+            <h3>Si vous voulez savoir plus sur ma spécialite , Voici une video youtube qui pourra vous aider</h3>
+    <iframe
+	width="420"
+	height="315"
+	src="https://www.youtube.com/embed/qsliCsz49mg"
+></iframe>
+    </section>
+
+    <!-- Section "CV" -->
+    
+
+    <!-- Section "Contact" avec formulaire -->
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form action="/submit" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="Secondname">Prénom :</label>
+            <input type="text" id="Secondname" name="Secondname" required>
+            
+            <label for="adresse">Adresse :</label>
+            <textarea id="adresse" name="adresse" required></textarea>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="commentaire">Commentaire :</label>
+            <textarea id="commentaire" name="commentaire" required></textarea>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+
+    
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; Mon Portfolio_2023</p>
+    </footer>
+
+</body>
+</html>
